@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color:skyblue;
+    color: red;
+    text-align: center;
+    padding: 5px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.balance, .transaction, .history {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+footer {
+    background-color: skyblue; /*Background color */
+    color: red; /* Text color */
+    padding: 5px;
+    text-align: center; /* Center-align text */
+    /* position: absolute; Position the footer at the bottom */
+    width: 1330px; /* Full width */
+    bottom: 0;
+    margin-left: -370px;
+    font-size: larger; /* Stick to the bottom of the page */
+}
+footer a{
+    font-size: large;
+    color: red;
+text-decoration: none;
+}
